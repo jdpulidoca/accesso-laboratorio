@@ -97,7 +97,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 1250 4250 1250
 Wire Wire Line
-	3850 1250 3450 1250
+	3850 1250 3800 1250
 Connection ~ 3450 1250
 Wire Wire Line
 	1000 1800 950  1800
@@ -1245,4 +1245,27 @@ Wire Wire Line
 	1250 2050 1000 2050
 Wire Wire Line
 	1000 2050 1000 1800
+$Comp
+L Device:C C?
+U 1 1 62C89994
+P 4050 800
+F 0 "C?" V 4302 800 50  0000 C CNN
+F 1 "10u" V 4211 800 50  0000 C CNN
+F 2 "" H 4088 650 50  0001 C CNN
+F 3 "~" H 4050 800 50  0001 C CNN
+	1    4050 800 
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4350 1250 4350 800 
+Wire Wire Line
+	4350 800  4200 800 
+Connection ~ 4350 1250
+Wire Wire Line
+	3900 800  3800 800 
+Wire Wire Line
+	3800 800  3800 1250
+Connection ~ 3800 1250
+Wire Wire Line
+	3800 1250 3450 1250
 $EndSCHEMATC
