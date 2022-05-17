@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 (kicad_pcb (version 20171130) (host pcbnew "(5.1.10)-1")
 
   (general
@@ -513,7 +512,7 @@
   )
 
   (module Display:WC1602A (layer F.Cu) (tedit 5A02FE80) (tstamp 62835787)
-    (at 32.26 72.37)
+    (at 63.493744 88.765)
     (descr "LCD 16x2 http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf")
     (tags "LCD 16x2 Alphanumeric 16pin")
     (path /62699940)
@@ -599,7 +598,7 @@
   )
 
   (module Display:WC1602A (layer F.Cu) (tedit 5A02FE80) (tstamp 62835751)
-    (at 33.7 25.94)
+    (at 65.927136 50.935)
     (descr "LCD 16x2 http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf")
     (tags "LCD 16x2 Alphanumeric 16pin")
     (path /626987D0)
@@ -685,7 +684,7 @@
   )
 
   (module RF_Module:ESP32-WROOM-32 (layer F.Cu) (tedit 5B5B4654) (tstamp 6283571B)
-    (at 157.02 33.575)
+    (at 136.861408 68.9)
     (descr "Single 2.4 GHz Wi-Fi and Bluetooth combo chip https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf")
     (tags "Single 2.4 GHz Wi-Fi and Bluetooth combo  chip")
     (path /6267EAB3)
@@ -2683,7 +2682,7 @@
   )
 
   (module Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder (layer F.Cu) (tedit 5F68FEEF) (tstamp 6283528F)
-    (at 68.73 130.55)
+    (at 78.46 124.71)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /6290AFBF)
@@ -2791,7 +2790,7 @@
   )
 
   (module Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder (layer F.Cu) (tedit 5F68FEEF) (tstamp 6283525C)
-    (at 71.163392 130.55)
+    (at 80.893392 124.71)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /628EEA1D)
@@ -3043,6 +3042,3 @@
   )
 
 )
-=======
-(kicad_pcb (version 4) (host kicad "dummy file") )
->>>>>>> parent of 0448159 (Ajuste Finales Esquematico y Seleccion FootPrints)
