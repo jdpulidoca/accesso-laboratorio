@@ -393,12 +393,6 @@ F 3 "https://www.onsemi.com/pub/Collateral/BC550-D.pdf" H 10900 5450 50  0001 L 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9700 5450 10000 5450
-Wire Wire Line
-	10300 5450 10350 5450
-Wire Wire Line
-	10700 5450 10650 5450
-Wire Wire Line
 	11400 5800 11400 6400
 Wire Wire Line
 	11400 5150 11400 5700
@@ -416,13 +410,13 @@ $EndComp
 $Comp
 L Device:LED D4
 U 1 1 6293854B
-P 10150 5450
-F 0 "D4" H 10143 5667 50  0000 C CNN
-F 1 "LED" H 10143 5576 50  0000 C CNN
-F 2 "" H 10150 5450 50  0001 C CNN
-F 3 "~" H 10150 5450 50  0001 C CNN
-	1    10150 5450
-	-1   0    0    -1  
+P 10600 6050
+F 0 "D4" H 10593 6267 50  0000 C CNN
+F 1 "LED" H 10593 6176 50  0000 C CNN
+F 2 "" H 10600 6050 50  0001 C CNN
+F 3 "~" H 10600 6050 50  0001 C CNN
+	1    10600 6050
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	11300 4300 11300 4550
@@ -436,7 +430,7 @@ Wire Wire Line
 	11000 4500 10400 4500
 Text GLabel 11400 6400 2    50   Input ~ 0
 GND
-Text GLabel 9700 5450 0    50   Input ~ 0
+Text GLabel 9650 5450 0    50   Input ~ 0
 Crelay
 Text GLabel 11000 4300 0    50   Input ~ 0
 5v
@@ -452,13 +446,13 @@ Wire Wire Line
 $Comp
 L Device:R R14
 U 1 1 628F6BDA
-P 10500 5450
-F 0 "R14" V 10293 5450 50  0000 C CNN
-F 1 "5.6k" V 10384 5450 50  0000 C CNN
-F 2 "" V 10430 5450 50  0001 C CNN
-F 3 "~" H 10500 5450 50  0001 C CNN
-	1    10500 5450
-	0    1    1    0   
+P 10250 5450
+F 0 "R14" V 10043 5450 50  0000 C CNN
+F 1 "5.6k" V 10134 5450 50  0000 C CNN
+F 2 "" V 10180 5450 50  0001 C CNN
+F 3 "~" H 10250 5450 50  0001 C CNN
+	1    10250 5450
+	0    -1   -1   0   
 $EndComp
 Connection ~ 11000 5150
 $Comp
@@ -1340,4 +1334,19 @@ Wire Wire Line
 	1800 5300 2400 5300
 Wire Wire Line
 	1800 5850 2850 5850
+Wire Wire Line
+	10600 5450 10700 5450
+Wire Wire Line
+	10600 6200 10600 6400
+Wire Wire Line
+	10600 6400 11000 6400
+Connection ~ 11000 6400
+NoConn ~ 10250 2050
+Wire Wire Line
+	10600 5450 10400 5450
+Connection ~ 10600 5450
+Wire Wire Line
+	9650 5450 10100 5450
+Wire Wire Line
+	10600 5450 10600 5900
 $EndSCHEMATC
