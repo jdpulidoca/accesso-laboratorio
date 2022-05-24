@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 4)
-    (tracks 0)
+    (tracks 18)
     (zones 0)
     (modules 59)
     (nets 78)
@@ -34,7 +34,8 @@
   )
 
   (setup
-    (last_trace_width 0.25)
+    (last_trace_width 0.525491)
+    (user_trace_width 0.525491)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
     (zone_45_only no)
@@ -1051,7 +1052,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder (layer F.Cu) (tedit 5F68FEEE) (tstamp 628C9A1F)
-    (at 159 119.6875 90)
+    (at 161.79 119.6875 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /63189590)
@@ -1087,7 +1088,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder (layer F.Cu) (tedit 5F68FEEE) (tstamp 628C9A0E)
-    (at 154.7 119.64 270)
+    (at 157.49 119.64 270)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /6318A99B)
@@ -1231,7 +1232,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder (layer F.Cu) (tedit 5F68FEEE) (tstamp 628C99CA)
-    (at 163.25 112.68 180)
+    (at 166.04 112.68 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /628F6BDA)
@@ -1303,7 +1304,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder (layer F.Cu) (tedit 5F68FEEE) (tstamp 628C99A8)
-    (at 179.71 119.16)
+    (at 182.72 119.16)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /6277F32D)
@@ -1339,7 +1340,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder (layer F.Cu) (tedit 5F68FEEE) (tstamp 628C9997)
-    (at 179.65 113.3)
+    (at 182.66 113.3)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /62778922)
@@ -1663,7 +1664,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder (layer F.Cu) (tedit 5F68FEEE) (tstamp 628C98FE)
-    (at 179.73 107.38)
+    (at 182.74 107.38)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /62689349)
@@ -1735,7 +1736,7 @@
   )
 
   (module Package_TO_SOT_THT:TO-92_Inline (layer F.Cu) (tedit 5A1DD157) (tstamp 628C98DC)
-    (at 157.67 113.8 90)
+    (at 160.46 113.8 90)
     (descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
     (tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
     (path /62B6F2E3)
@@ -2472,7 +2473,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer F.Cu) (tedit 58645DC7) (tstamp 628C96F9)
-    (at 149.65 118.96 90)
+    (at 152.44 118.96 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /62887212)
@@ -2516,7 +2517,7 @@
   )
 
   (module LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder (layer F.Cu) (tedit 5F68FEF1) (tstamp 628C96E0)
-    (at 150.43 107.9)
+    (at 153.22 107.9)
     (descr "LED SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (path /6293854B)
@@ -2554,7 +2555,7 @@
   )
 
   (module LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder (layer F.Cu) (tedit 5F68FEF1) (tstamp 628C96CD)
-    (at 172.21 119.16)
+    (at 175.22 119.16)
     (descr "LED SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (path /6277F327)
@@ -2592,7 +2593,7 @@
   )
 
   (module LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder (layer F.Cu) (tedit 5F68FEF1) (tstamp 628C96BA)
-    (at 172.1325 113.31)
+    (at 175.1425 113.31)
     (descr "LED SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (path /6277891C)
@@ -2630,7 +2631,7 @@
   )
 
   (module LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder (layer F.Cu) (tedit 5F68FEF1) (tstamp 628C96A7)
-    (at 172.16 107.38)
+    (at 175.17 107.38)
     (descr "LED SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (path /62687361)
@@ -3075,5 +3076,24 @@
     (arrow2a (pts (xy 111.79 157.63) (xy 112.916504 158.216421)))
     (arrow2b (pts (xy 111.79 157.63) (xy 112.916504 157.043579)))
   )
+
+  (segment (start 151.18 140.08) (end 152.81 140.08) (width 0.525491) (layer F.Cu) (net 1))
+  (segment (start 153.56 139.33) (end 156.37 139.33) (width 0.525491) (layer F.Cu) (net 1))
+  (segment (start 152.81 140.08) (end 153.56 139.33) (width 0.525491) (layer F.Cu) (net 1))
+  (segment (start 151.18 140.08) (end 145.13 140.08) (width 0.525491) (layer F.Cu) (net 1))
+  (segment (start 137.57 134.98) (end 139.53 134.98) (width 0.525491) (layer F.Cu) (net 1))
+  (segment (start 144.63 140.08) (end 145.13 140.08) (width 0.525491) (layer F.Cu) (net 1))
+  (segment (start 139.53 134.98) (end 144.63 140.08) (width 0.525491) (layer F.Cu) (net 1))
+  (segment (start 145.13 143.205) (end 151.18 143.205) (width 0.525491) (layer F.Cu) (net 6))
+  (segment (start 151.905 143.93) (end 151.18 143.205) (width 0.525491) (layer F.Cu) (net 6))
+  (segment (start 156.37 143.93) (end 151.905 143.93) (width 0.525491) (layer F.Cu) (net 6))
+  (segment (start 130.325 129.29) (end 132.66 129.29) (width 0.525491) (layer F.Cu) (net 13))
+  (segment (start 134.2 130.83) (end 135.7575 130.83) (width 0.525491) (layer F.Cu) (net 13))
+  (segment (start 132.66 129.29) (end 134.2 130.83) (width 0.525491) (layer F.Cu) (net 13))
+  (segment (start 136.13 143.72) (end 136.13 141.99) (width 0.525491) (layer F.Cu) (net 14))
+  (segment (start 125.855 129.31) (end 125.875 129.29) (width 0.525491) (layer F.Cu) (net 17))
+  (segment (start 120.38 129.31) (end 125.855 129.31) (width 0.525491) (layer F.Cu) (net 17))
+  (segment (start 126.054 143.77) (end 126.104 143.82) (width 0.525491) (layer F.Cu) (net 20))
+  (segment (start 120.49 143.77) (end 126.054 143.77) (width 0.525491) (layer F.Cu) (net 20))
 
 )
