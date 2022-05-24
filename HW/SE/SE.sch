@@ -198,12 +198,8 @@ Wire Wire Line
 	3500 2650 3000 2650
 Wire Wire Line
 	3250 3150 3400 3150
-Text GLabel 3550 3250 2    50   Input ~ 0
-3.33v
 Wire Wire Line
 	3400 3150 3400 3250
-Wire Wire Line
-	3400 3250 3550 3250
 Connection ~ 3400 3150
 Wire Wire Line
 	3400 3150 3500 3150
@@ -259,8 +255,6 @@ F 3 "~" H 3400 4100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3800 4100 3550 4100
-Text GLabel 4450 2350 3    50   Input ~ 0
-RST
 Wire Wire Line
 	2400 1050 3000 1050
 Wire Wire Line
@@ -269,10 +263,6 @@ Wire Wire Line
 	2400 750  3750 750 
 Wire Wire Line
 	3750 750  3750 2450
-Text GLabel 4700 1800 0    50   Input ~ 0
-SDAs
-Text GLabel 3600 1950 1    50   Input ~ 0
-SCKs
 $Comp
 L Connector:Conn_01x07_Female J2
 U 1 1 62800B46
@@ -302,16 +292,12 @@ Wire Wire Line
 	3100 2050 3100 2850
 Wire Wire Line
 	3100 2850 3000 2850
-Text GLabel 3200 2050 3    50   Input ~ 0
-MOSI
 Wire Wire Line
 	3000 2550 4650 2550
 Wire Wire Line
 	4650 2550 4650 2150
 Wire Wire Line
 	4650 2150 4800 2150
-Text GLabel 4650 2550 3    50   Input ~ 0
-MISO
 Wire Wire Line
 	4050 3450 4350 3450
 Connection ~ 4350 3450
@@ -752,7 +738,7 @@ U 1 1 626987D0
 P 12550 1450
 F 0 "U2" H 12550 561 50  0000 C CNN
 F 1 "NHD-0420H1Z" H 12550 470 50  0000 C CNN
-F 2 "Display:WC1602A" H 12550 550 50  0001 C CNN
+F 2 "LIB:LCD_LCD-20X4B" H 12550 550 50  0001 C CNN
 F 3 "http://www.newhavendisplay.com/specs/NHD-0420H1Z-FSW-GBW-33V3.pdf" H 12650 1350 50  0001 C CNN
 	1    12550 1450
 	1    0    0    -1  
@@ -945,7 +931,6 @@ Wire Wire Line
 	3500 6200 3700 6200
 Wire Wire Line
 	4550 6200 4150 6200
-Connection ~ 4150 6200
 Wire Wire Line
 	4150 6350 4150 6200
 Wire Wire Line
@@ -1149,7 +1134,6 @@ F 3 "~" H 1800 6950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3700 6300 3700 6200
-Connection ~ 3700 6200
 Wire Wire Line
 	3700 6600 3700 6800
 Wire Wire Line
@@ -1339,12 +1323,12 @@ $EndComp
 $Comp
 L power:+12V #PWR0110
 U 1 1 62FAF0A2
-P 4000 6150
-F 0 "#PWR0110" H 4000 6000 50  0001 C CNN
-F 1 "+12V" H 4015 6323 50  0000 C CNN
-F 2 "" H 4000 6150 50  0001 C CNN
-F 3 "" H 4000 6150 50  0001 C CNN
-	1    4000 6150
+P 3950 6000
+F 0 "#PWR0110" H 3950 5850 50  0001 C CNN
+F 1 "+12V" H 3965 6173 50  0000 C CNN
+F 2 "" H 3950 6000 50  0001 C CNN
+F 3 "" H 3950 6000 50  0001 C CNN
+	1    3950 6000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1441,7 +1425,7 @@ U 1 1 62699940
 P 12550 3400
 F 0 "U3" H 12550 2511 50  0000 C CNN
 F 1 "NHD-0420H1Z" H 12550 2420 50  0000 C CNN
-F 2 "Display:WC1602A" H 12550 2500 50  0001 C CNN
+F 2 "LIB:LCD_LCD-20X4B" H 12550 2500 50  0001 C CNN
 F 3 "http://www.newhavendisplay.com/specs/NHD-0420H1Z-FSW-GBW-33V3.pdf" H 12650 3300 50  0001 C CNN
 	1    12550 3400
 	1    0    0    -1  
@@ -1450,13 +1434,6 @@ Wire Wire Line
 	12650 2600 12650 2550
 Wire Wire Line
 	10400 2550 12650 2550
-Wire Wire Line
-	3700 6200 4000 6200
-Wire Wire Line
-	4000 6150 4000 6200
-Connection ~ 4000 6200
-Wire Wire Line
-	4000 6200 4150 6200
 Wire Wire Line
 	8650 3850 8650 3950
 Connection ~ 8650 3850
@@ -1510,4 +1487,28 @@ Wire Wire Line
 Wire Wire Line
 	10450 600  12650 600 
 Connection ~ 10450 1050
+$Comp
+L power:+3.3V #PWR0114
+U 1 1 629515F0
+P 4900 3200
+F 0 "#PWR0114" H 4900 3050 50  0001 C CNN
+F 1 "+3.3V" H 4915 3373 50  0000 C CNN
+F 2 "" H 4900 3200 50  0001 C CNN
+F 3 "" H 4900 3200 50  0001 C CNN
+	1    4900 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 3250 4900 3200
+Wire Wire Line
+	3400 3250 4900 3250
+Wire Wire Line
+	4150 6200 3950 6200
+Connection ~ 4150 6200
+Connection ~ 3700 6200
+Wire Wire Line
+	3950 6000 3950 6200
+Connection ~ 3950 6200
+Wire Wire Line
+	3950 6200 3700 6200
 $EndSCHEMATC
