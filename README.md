@@ -10,6 +10,7 @@ A continuacion se muestra, las ideas basicas en forma grafica con el fin de orde
 ### Esquema del Diseño
 ### Diseño del Circuito Impreso
 ### Error de Diseño
+### Proceso de Compra
 ## SoftWare
 ### Codigo
 ## Pruebas
