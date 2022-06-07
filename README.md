@@ -9,7 +9,7 @@ A continuacion se muestra, las ideas basicas en forma grafica con el fin de orde
 ## Modulos a usar
 ## Esquema del Diseño
 ## Diseño del Circuito Impreso
-# Error de Diseño
+### Error de Diseño
 ### SoftWare
 ## Codigo
 ### Pruebas
