@@ -5,11 +5,11 @@ A continuacion se muestra, las ideas basicas en forma grafica con el fin de orde
 ![IdeasBasicas](./Documentacion/Imagenes/Ideacion.jpeg)
 
 ## Diagrama de Flujo
-### HardWare
-## Modulos a usar
-## Esquema del Diseño
-## Diseño del Circuito Impreso
+## HardWare
+### Modulos a usar
+### Esquema del Diseño
+### Diseño del Circuito Impreso
 ### Error de Diseño
-### SoftWare
-## Codigo
-### Pruebas
+## SoftWare
+### Codigo
+## Pruebas
