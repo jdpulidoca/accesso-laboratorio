@@ -8,8 +8,11 @@ A continuacion se muestra, las ideas basicas en forma grafica con el fin de orde
 ## HardWare
 ### Modulos a Implementar
 #### LCD 20x4
+
+![LCD](./Documentacion/Imagenes/LCD.jpeg)
 #### PCF8574 Interfaz expansora I^2C
 #### RFID RC522
+![RFID](./Documentacion/Imagenes/RFID.jpeg)
 #### Rele 5V Forma C
 #### Modulo ESP32 WROOM
 #### Fuente de Alimentacion
