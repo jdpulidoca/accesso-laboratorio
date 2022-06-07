@@ -6,8 +6,13 @@ A continuacion se muestra, las ideas basicas en forma grafica con el fin de orde
 
 ### Diagrama de Flujo
 ## HardWare
-### Modulos a usar
+### Modulos a Implementar
 #### LCD 20x4
+#### PCF8574 Interfaz expansora I^2C
+#### RFID RC522
+#### Rele 5V Forma C
+#### Modulo ESP32 WROOM
+#### Fuente de Alimentacion
 ### Esquema del Diseño
 ### Diseño del Circuito Impreso
 ### Error de Diseño
@@ -15,3 +20,5 @@ A continuacion se muestra, las ideas basicas en forma grafica con el fin de orde
 ## SoftWare
 ### Codigo
 ## Pruebas
+### Prototipo
+### PCB
