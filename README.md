@@ -7,6 +7,7 @@ A continuacion se muestra, las ideas basicas en forma grafica con el fin de orde
 ### Diagrama de Flujo
 ## HardWare
 ### Modulos a usar
+#### LCD 20x4
 ### Esquema del Diseño
 ### Diseño del Circuito Impreso
 ### Error de Diseño
