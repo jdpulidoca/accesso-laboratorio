@@ -15,14 +15,24 @@ Para lograr el objetivo del proyecto se plantean las primeras ideas en cuanto a 
 #### HardWare
 Para esta sección se establecen los siguientes periféricos:  
 ##### LCD 20x4
-
 ![LCD](./Documentacion/Imagenes/LCD.jpeg)
 ##### PCF8574 Interfaz expansora I^2C
+
 ##### RFID RC522
-![RFID](./Documentacion/Imagenes/RFID.jpeg)
+
+<p align="center">
+  <img src="./Documentacion/Imagenes/RFID.jpeg" width="350" title="hover text">
+</p>
+
+
 ##### Rele 5V Forma C
+![Rele](./Documentacion/Imagenes/Rele.jpeg)
 ##### Modulo ESP32 WROOM
+![ESP32](./Documentacion/Imagenes/ESP32.jpeg)
 ##### Fuente de Alimentacion
+###### Fuente 12 V
+###### Bateria 12 V
+![Bateria](./Documentacion/Imagenes/Bateria.jpeg)
 #### SoftWare
 ##### Codigo
 ### Esquema del Diseño
