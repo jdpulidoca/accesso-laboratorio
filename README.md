@@ -15,27 +15,67 @@ Para lograr el objetivo del proyecto se plantean las primeras ideas en cuanto a 
 #### HardWare
 Para esta sección se establecen los siguientes periféricos:  
 ##### LCD 20x4
-![LCD](./Documentacion/Imagenes/LCD.jpeg)
+
+
+<p align="center">
+  <img src="./Documentacion/Imagenes/LCD.jpeg" width="350" title="Pantalla LCD">
+</p>
+
+
+
 ##### PCF8574 Interfaz expansora I^2C
+
+
+<p align="center">
+  <img src="./Documentacion/Imagenes/I2C.jpeg" width="350" title="Sensor RFID-RC522">
+</p>
 
 ##### RFID RC522
 
 <p align="center">
-  <img src="./Documentacion/Imagenes/RFID.jpeg" width="350" title="hover text">
+  <img src="./Documentacion/Imagenes/RFID.jpeg" width="350" title="Sensor RFID-RC522">
 </p>
 
 
 ##### Rele 5V Forma C
-![Rele](./Documentacion/Imagenes/Rele.jpeg)
+
+<p align="center">
+  <img src="./Documentacion/Imagenes/Rele.jpeg" width="350" title="Modulo Rele 5V">
+</p>
+
 ##### Modulo ESP32 WROOM
-![ESP32](./Documentacion/Imagenes/ESP32.jpeg)
+
+
+<p align="center">
+  <img src="./Documentacion/Imagenes/ESP32.jpeg" width="350" title="Dev-Kit ESP32">
+</p>
+
 ##### Fuente de Alimentacion
 ###### Fuente 12 V
+
+<p align="center">
+  <img src="./Documentacion/Imagenes/Fuente.jpeg" width="350" title="Funet 12V">
+</p>
+
+
+
+
 ###### Bateria 12 V
-![Bateria](./Documentacion/Imagenes/Bateria.jpeg)
+
+<p align="center">
+  <img src="./Documentacion/Imagenes/Bateria.jpeg" width="350" title="Bateria 12 V">
+</p>
+
 #### SoftWare
 ##### Codigo
 ### Esquema del Diseño
+
+Este se divide en 4
+
+![Esq1](./Documentacion/Imagenes/Esq1.png)
+
+
+
 ### Diseño del Circuito Impreso
 ### Error de Diseño
 ### Proceso de Compra
