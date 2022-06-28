@@ -70,9 +70,12 @@ Para esta sección se establecen los siguientes periféricos:
 ##### Codigo
 ### Esquema del Diseño
 
-Este se divide en 4
+Este se divide en 4 "Islas" principales
 
 ![Esq1](./Documentacion/Imagenes/Esq1.png)
+![Esq2](./Documentacion/Imagenes/Esq2.png)
+![Esq3](./Documentacion/Imagenes/Esq3.png)
+![Esq4](./Documentacion/Imagenes/Esq4.png)
 
 
 
