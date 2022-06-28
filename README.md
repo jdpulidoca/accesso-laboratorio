@@ -54,7 +54,7 @@ Para esta sección se establecen los siguientes periféricos:
 ###### Fuente 12 V
 
 <p align="center">
-  <img src="./Documentacion/Imagenes/Fuente.jpeg" width="350" title="Funet 12V">
+  <img src="./Documentacion/Imagenes/Fuente12V.jpeg" width="350" title="Fuente12V">
 </p>
 
 
@@ -87,6 +87,27 @@ En primera instancia se se tienen los componetes que operan a con 3.3 V
 ### PCB impresa
 
 ## Pruebas
+Las pruebas se realizaron sobre 2 tajetas. En primer lugar se trabajo con una tarjeta  experimental, que consiste en una baquelita solda donde se probaron los perifericos mediantes una tarjeta de desarrollo ESP32 DEVKIT V1. Una vez comprobado el funcionamiento de los perifericos y el codigo en la tarjeta experimental, se procede a aplicarlo en la PCB diseñada y realizar los cambios pertinentes para lograr las tares que se requieren.
+### Experimental
+<p align="center">
+  <img src="./Documentacion/Imagenes/Experimental1.jpeg" width="350" title="Tarjeta EXperimental">
+</p>
+<p align="center">
+  <img src="./Documentacion/Imagenes/Experimental2.jpeg" width="350" title="Tarjeta EXperimental">
+</p>
+
+### Diseñada
+
+<p align="center">
+  <img src="./Documentacion/Imagenes/PCB2.jpeg" width="350" title="Tarjeta Diseñada">
+</p>
+<p align="center">
+  <img src="./Documentacion/Imagenes/PCB1.jpeg" width="350" title="Tarjeta Diseñada">
+</p>
+
+
+
+
 ## Resultados
 ### Prototipo
 
