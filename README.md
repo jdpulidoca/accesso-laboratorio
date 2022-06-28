@@ -27,7 +27,7 @@ Para esta sección se establecen los siguientes periféricos:
 
 
 <p align="center">
-  <img src="./Documentacion/Imagenes/I2C.jpeg" width="350" title="Sensor RFID-RC522">
+  <img src="./Documentacion/Imagenes/I2C.jpeg" width="350" title="PCF8574">
 </p>
 
 ##### RFID RC522
@@ -70,7 +70,9 @@ Para esta sección se establecen los siguientes periféricos:
 ##### Codigo
 ### Esquema del Diseño
 
-Este se divide en 4 "Islas" principales
+Este se divide en 4 "Islas" principales, divididos segun los valores de alimentacion. 
+
+En primera instancia se se tienen los componetes que operan a con 3.3 V
 
 ![Esq1](./Documentacion/Imagenes/Esq1.png)
 ![Esq2](./Documentacion/Imagenes/Esq2.png)
