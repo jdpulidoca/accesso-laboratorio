@@ -56,6 +56,9 @@ Como último se tiene la tarjeta ESP32 desde donde se controlan los demás modul
 </p>
 
 ##### Fuente de Alimentacion
+
+Se plantean 2 soluciones para la alimentación del sistema, como primer solución se tiene una fuente variable que corresponde al de la siguiente imagen.
+
 ###### Fuente 12 V
 
 <p align="center">
@@ -64,8 +67,10 @@ Como último se tiene la tarjeta ESP32 desde donde se controlan los demás modul
 
 
 
-
 ###### Bateria 12 V
+
+Como segunda solución se plantea la implementación de una bateria extraida de una motocicleta, la cual se puede ver en la siguiente imagen
+
 
 <p align="center">
   <img src="./Documentacion/Imagenes/Bateria.jpeg" width="350" title="Bateria 12 V">
