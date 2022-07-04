@@ -15,7 +15,7 @@ Para lograr el objetivo del proyecto se plantean las primeras ideas en cuanto a 
 #### HardWare
 Para esta sección se establecen los siguientes periféricos:  
 ##### LCD 20x4
-
+EL fin de este periferico es ver la información de la tarjeta con la que se desea ingresar, de igual manera ver si la solicitude de acceso al laboratoirio se aprueba o se denega.
 
 <p align="center">
   <img src="./Documentacion/Imagenes/LCD.jpeg" width="350" title="Pantalla LCD">
@@ -24,13 +24,15 @@ Para esta sección se establecen los siguientes periféricos:
 
 
 ##### PCF8574 Interfaz expansora I^2C
-
+Este modulo se estableció con el fin de generar una comunicación y así verificar los datos obtenidos por medio de la tarjeta entre el sistema implementado y un dispositivo externo.
 
 <p align="center">
   <img src="./Documentacion/Imagenes/I2C.jpeg" width="350" title="PCF8574">
 </p>
 
 ##### RFID RC522
+
+Este modulo se implementa con el fin de leer los datos aportados por la tarjeta
 
 <p align="center">
   <img src="./Documentacion/Imagenes/RFID.jpeg" width="350" title="Sensor RFID-RC522">
@@ -39,12 +41,15 @@ Para esta sección se establecen los siguientes periféricos:
 
 ##### Rele 5V Forma C
 
+Este modulo se implementa para aislar la señal digital que nos da o nos niega el acceso de la puerta
+
 <p align="center">
   <img src="./Documentacion/Imagenes/Rele.jpeg" width="350" title="Modulo Rele 5V">
 </p>
 
 ##### Modulo ESP32 WROOM
 
+Como último se tiene la tarjeta ESP32 desde donde se controlan los demás modulos, se implementa el codigo referente al proyecto
 
 <p align="center">
   <img src="./Documentacion/Imagenes/ESP32.jpeg" width="350" title="Dev-Kit ESP32">
