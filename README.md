@@ -117,7 +117,7 @@ Las pruebas se realizaron sobre 2 tajetas. En primer lugar se trabajo con una ta
 
 
 
-
+## Funcionamiento
 ## Resultados
 ### Prototipo
 
