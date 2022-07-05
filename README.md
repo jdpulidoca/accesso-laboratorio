@@ -93,6 +93,13 @@ En primera instancia se se tienen los componetes que operan a con 3.3 V
 
 
 ### Diseño del Circuito Impreso
+
+Se muestra el prototipo que se obtendra al imprimir la tarjeta y los dispositivos a soldar
+
+<p align="center">
+  <img src="./Documentacion/Imagenes/F3D.png" width="350" title="Tarjeta EXperimental">
+</p>
+
 ### Error de Diseño
 ### Proceso de Compra
 
@@ -159,16 +166,45 @@ Se muestra la factura del impuesto adicional que toca pagar al llegar el paquete
   <img src="./Documentacion/Imagenes/Nac1.jpeg" width="350" title="Tarjeta EXperimental">
 </p>
 
-### PCB impresa
 
 ## Pruebas
 Las pruebas se realizaron sobre 2 tajetas. En primer lugar se trabajo con una tarjeta  experimental, que consiste en una baquelita solda donde se probaron los perifericos mediantes una tarjeta de desarrollo ESP32 DEVKIT V1. Una vez comprobado el funcionamiento de los perifericos y el codigo en la tarjeta experimental, se procede a aplicarlo en la PCB diseñada y realizar los cambios pertinentes para lograr las tares que se requieren.
 ### Experimental
+
+Primero se prueban cada uno de los perifericos con el fin de verificar que esten en buen estado como se muestran en las siguientes imagenes
+
+Empezamos adecuando un ESP32 para hacer las pruebas
 <p align="center">
   <img src="./Documentacion/Imagenes/Experimental1.jpeg" width="350" title="Tarjeta EXperimental">
 </p>
 <p align="center">
   <img src="./Documentacion/Imagenes/Experimental2.jpeg" width="350" title="Tarjeta EXperimental">
+</p>
+
+Seguido a esto probamos el modulo RFID
+
+<p align="center">
+  <img src="./Documentacion/Imagenes/Pruebas/EnsayoRFID.jpeg" width="350" title="Tarjeta EXperimental">
+</p>
+
+Pruebas en bateria y fuente
+
+<p align="center">
+  <img src="./Documentacion/Imagenes/Pruebas/PruebaBat.jpeg" width="350" title="Tarjeta EXperimental">
+</p>
+
+<p align="center">
+  <img src="./Documentacion/Imagenes/Pruebas/PruebaFue.jpeg" width="350" title="Tarjeta EXperimental">
+</p>
+
+Se conectan los modulos RFID y la pantalla LCD
+
+<p align="center">
+  <img src="./Documentacion/Imagenes/Pruebas/RFIDyLCD.jpeg" width="350" title="Tarjeta EXperimental">
+</p>
+
+<p align="center">
+  <img src="./Documentacion/Imagenes/Pruebas/RFIDyLCD1.jpeg" width="350" title="Tarjeta EXperimental">
 </p>
 
 ### Diseñada
