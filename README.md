@@ -219,6 +219,13 @@ Se conectan los modulos RFID y la pantalla LCD
 
 
 ## Funcionamiento
+
+Al conectar los diferentes perifericos junto a la PCB se tiene que al acercar una tarjeta autorizada los datos de la tarjeta llegarán a la pantalla y el dispositivo dará acceso de entrada a la puerta. Por otro lado, cuando se acerque una tarjeta no autorizada igualmente se tendrán los datos en pantalla junto al mensaje de acceso denegado, pero en esta ocasión no se dará acceso a la puerta.
+
+
 ## Resultados
+
+
+
 ### Prototipo
 
