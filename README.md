@@ -95,6 +95,70 @@ En primera instancia se se tienen los componetes que operan a con 3.3 V
 ### Diseño del Circuito Impreso
 ### Error de Diseño
 ### Proceso de Compra
+
+Despues de terminar el diseño de la PCB se empieza a estuiar los posibles proveedores para mandar imprimir dicha placa, con lo que se decide mandarla imprimir en JLCPBC
+
+<p align="center">
+  <img src="./Documentacion/Imagenes/Cargar.png" width="350" title="Tarjeta EXperimental">
+</p>
+
+Seguido a esto se carga el diseño y se confirma la compra, la compra se realiza con tarjeta de debito.
+
+En las siguientes imagenes se observara el proceso de compra paso a paso
+
+Se seleccionan las diferentes caracteristicas referentes a la PCB y a los datos de envio, tambien se evidencian los costos e impuestos adicionales que no se tenían previstos.
+<p align="center">
+  <img src="./Documentacion/Imagenes/Ensamble.png" width="350" title="Tarjeta EXperimental">
+</p>
+
+Datos de envio
+<p align="center">
+  <img src="./Documentacion/Imagenes/Envio.png" width="350" title="Tarjeta EXperimental">
+</p>
+
+Valor estimado
+
+<p align="center">
+  <img src="./Documentacion/Imagenes/Estima.png" width="350" title="Tarjeta EXperimental">
+</p>
+
+Se modifica el archivo de elementos que se solicitaron soldar ya que la pagina solicitaba un formato especifico para poder ser procesado. Adicional a esto se escogen los dispositivos donde se tratan de adecuar a la necesidad del proyecto y al presupuesto
+
+<p align="center">
+  <img src="./Documentacion/Imagenes/Mat.png" width="350" title="Tarjeta EXperimental">
+</p>
+
+<p align="center">
+  <img src="./Documentacion/Imagenes/Mat2.png" width="350" title="Tarjeta EXperimental">
+</p>
+
+<p align="center">
+  <img src="./Documentacion/Imagenes/Mat3.png" width="350" title="Tarjeta EXperimental">
+</p>
+
+Se adjunta evidencia del proceso de compra
+
+<p align="center">
+  <img src="./Documentacion/Imagenes/Pago.png" width="350" title="Tarjeta EXperimental">
+</p>
+<p align="center">
+  <img src="./Documentacion/Imagenes/Pago2.png" width="350" title="Tarjeta EXperimental">
+</p>
+
+<p align="center">
+  <img src="./Documentacion/Imagenes/Pago3.png" width="350" title="Tarjeta EXperimental">
+</p>
+
+Se muestra la factura del impuesto adicional que toca pagar al llegar el paquete. este impuesto se entiende como un proceso de nacionalización del producto ya que Colombia no posee tratado de libre comercio con china.
+
+<p align="center">
+  <img src="./Documentacion/Imagenes/Nac.jpeg" width="350" title="Tarjeta EXperimental">
+</p>
+
+<p align="center">
+  <img src="./Documentacion/Imagenes/Nac1.jpeg" width="350" title="Tarjeta EXperimental">
+</p>
+
 ### PCB impresa
 
 ## Pruebas
