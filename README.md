@@ -85,9 +85,21 @@ Este se divide en 4 "Islas" principales, divididos segun los valores de alimenta
 
 En primera instancia se se tienen los componetes que operan a con 3.3 V
 
+En la siguiente imagen se muestra las conecciones a la ESP32, puertos de programación y adicional a esto tambien se puede evidenciar las conecciones del modulo RFID
+
 ![Esq1](./Documentacion/Imagenes/Esq1.png)
+
+Para la siguiente imagen se tienen las conecciones correspondientes a I2C para las pantallas LCD
+
 ![Esq2](./Documentacion/Imagenes/Esq2.png)
+
+Coneccion del rele con su respectivo controlador con el fin de activarlo con 3.3v y dar acceso al sistema
+
 ![Esq3](./Documentacion/Imagenes/Esq3.png)
+
+Y por ultimo tenemos un sistema de fuentes lineales con el cual podemos reducir la tensión de 12v a 5v y de 5v a 3.3. Este mismo cambio de fuente a bateria en caso de una interrupción en la alimentación
+
+
 ![Esq4](./Documentacion/Imagenes/Esq4.png)
 
 
