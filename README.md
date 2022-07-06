@@ -9,6 +9,8 @@ Para lograr el objetivo del proyecto se plantean las primeras ideas en cuanto a 
 
 ![IdeasBasicas](./Documentacion/Imagenes/Ideacion.jpeg)
 
+### Diagrama de Bloques
+
 ### Diagrama de Flujo
 
 ### Particionamiento Hardware y Software
