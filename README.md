@@ -24,6 +24,10 @@ Para lograr el objetivo del proyecto se plantean las primeras ideas en cuanto a 
 
 ### Diagrama de Flujo
 
+<p align="center">
+  <img src="./Documentacion/Imagenes/Diagrama de Flujo SE.png" width="600" title="Pantalla LCD">
+</p>
+
 ### Particionamiento Hardware y Software
 #### HardWare
 Para esta sección se establecen los siguientes periféricos:  
