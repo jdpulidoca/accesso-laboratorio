@@ -243,6 +243,19 @@ Al conectar los diferentes perifericos junto a la PCB se tiene que al acercar un
 
 ## Resultados
 
+Como resultados a las pruebas se realizaron diferentes pruebas.
+
+La primer prueba realizada para probar el modulo RFID, donde se identifica que se han podido leer los datos de las tarjetas y se evidencia que se tiene la respuesta segun dado el nivel de acceso de latrjeta. Se grabaron los siguientes videos:
+
+
+[![Alt text](https://img.youtube.com/vi/JyA0l8uYjHc/0.jpg)](https://www.youtube.com/watch?v=3RFAX3CbSGA)
+
+[![Alt text](https://img.youtube.com/vi/KVfLOUL_9iw/0.jpg)](https://www.youtube.com/watch?v=3RFAX3CbSGA)
+
+[![Alt text](https://img.youtube.com/vi/XaRdIia-tdM/0.jpg)](https://www.youtube.com/watch?v=3RFAX3CbSGA)
+
+[![Alt text](https://img.youtube.com/vi/Qwj3iA4QY8g/0.jpg)](https://www.youtube.com/watch?v=3RFAX3CbSGA)
+
 
 
 ### Prototipo
