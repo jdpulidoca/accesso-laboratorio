@@ -3,7 +3,7 @@
 ## Brochure
 
 <p align="center">
-  <img src="./Documentacion/Imagenes/Brochure.jpg" width="350" title="Pantalla LCD">
+  <img src="./Documentacion/Imagenes/Brochure.jpg" width="600" title="Pantalla LCD">
 </p>
 
 ## Descripción
