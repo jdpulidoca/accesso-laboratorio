@@ -252,6 +252,8 @@ La primer prueba realizada para probar el modulo RFID, donde se identifica que s
 
 [![Alt text](https://img.youtube.com/vi/KVfLOUL_9iw/0.jpg)](https://www.youtube.com/watch?v=3RFAX3CbSGA)
 
+Despues de haber implementado los diferentes modulos se realizan las siguientes pruebas y se mostraran los resultados obtenidos
+
 [![Alt text](https://img.youtube.com/vi/XaRdIia-tdM/0.jpg)](https://www.youtube.com/watch?v=3RFAX3CbSGA)
 
 [![Alt text](https://img.youtube.com/vi/Qwj3iA4QY8g/0.jpg)](https://www.youtube.com/watch?v=3RFAX3CbSGA)
@@ -259,4 +261,6 @@ La primer prueba realizada para probar el modulo RFID, donde se identifica que s
 
 
 ### Prototipo
+
+
 
