@@ -147,4 +147,23 @@ void loop()
   lcd.print("ACERQUE SU TARJETA");
     digitalWrite(led1, LOW);
   }
+ 
+ void open_door() {
+
+  lcd.setCursor (0, 3);//poner el cursor en las coordenadas (x,y)
+  lcd.print("   Puerta Abierta!  ");//muestra en la pantalla max 20 caracteres
+  delay(100);
+  digitalWrite(signal_relay, HIGH);
+  delay(40);
+  digitalWrite(signal_relay, LOW);
+  digitalWrite(led_open, HIGH);
+  digitalWrite(led_close, LOW);
+  delay(1500); //Tiempo desenergizado del iman
+  digitalWrite(led_open, LOW);
+  digitalWrite(led_close, HIGH);
+  lcd.setCursor (0, 3);//poner el cursor en las coordenadas (x,y)
+  lcd.print("   Puerta Cerrada!  ");//muestra en la pantalla max 20 caracteres
+  delay(100);
+
+}
 }
