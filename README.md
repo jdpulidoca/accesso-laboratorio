@@ -2,7 +2,9 @@
 
 ## Brochure
 
-
+<p align="center">
+  <img src="./Documentacion/Imagenes/DiagramadeBloques.jpeg" width="350" title="Pantalla LCD">
+</p>
 
 ## Descripción
 Como primer idea se plantea un sistema para acceder a un laboratoiro. Se tienen como condiciones que el acceso sea por medio del carnet universitario, donde al acercar el carnet al dispositivo que se diseñara, este desbloqueará la puerta y mostrara los datos en pantalla de la persona que desea ingresar al laboratorio. Este dispositivo activara y desactivara un electroiman que será el encargado de mantener la puerta bloqueada.
