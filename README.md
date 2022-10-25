@@ -1,4 +1,11 @@
-## Proyecto Sistemas Embebidos 2022-1 : Control de Acceso para Laboratorios
+# Proyecto Sistemas Embebidos 2022-1 : Control de Acceso para Laboratorios
+
+## Brochure
+
+<p align="center">
+  <img src="./Documentacion/Imagenes/Brochure.jpg" width="600" title="Pantalla LCD">
+</p>
+
 ## Descripción
 Como primer idea se plantea un sistema para acceder a un laboratoiro. Se tienen como condiciones que el acceso sea por medio del carnet universitario, donde al acercar el carnet al dispositivo que se diseñara, este desbloqueará la puerta y mostrara los datos en pantalla de la persona que desea ingresar al laboratorio. Este dispositivo activara y desactivara un electroiman que será el encargado de mantener la puerta bloqueada.
 
@@ -16,6 +23,10 @@ Para lograr el objetivo del proyecto se plantean las primeras ideas en cuanto a 
 </p>
 
 ### Diagrama de Flujo
+
+<p align="center">
+  <img src="./Documentacion/Imagenes/Diagrama de Flujo SE.png" width="600" title="Pantalla LCD">
+</p>
 
 ### Particionamiento Hardware y Software
 #### HardWare
@@ -248,15 +259,15 @@ Como resultados a las pruebas se realizaron diferentes pruebas.
 La primer prueba realizada para probar el modulo RFID, donde se identifica que se han podido leer los datos de las tarjetas y se evidencia que se tiene la respuesta segun dado el nivel de acceso de latrjeta. Se grabaron los siguientes videos:
 
 
-[![Alt text](https://img.youtube.com/vi/JyA0l8uYjHc/0.jpg)](https://www.youtube.com/watch?v=3RFAX3CbSGA)
+[![Alt text](https://img.youtube.com/vi/JyA0l8uYjHc/0.jpg)](https://www.youtube.com/watch?v=JyA0l8uYjHc)
 
-[![Alt text](https://img.youtube.com/vi/KVfLOUL_9iw/0.jpg)](https://www.youtube.com/watch?v=3RFAX3CbSGA)
+[![Alt text](https://img.youtube.com/vi/KVfLOUL_9iw/0.jpg)](https://www.youtube.com/watch?v=KVfLOUL_9iw)
 
 Despues de haber implementado los diferentes modulos se realizan las siguientes pruebas y se mostraran los resultados obtenidos
 
-[![Alt text](https://img.youtube.com/vi/XaRdIia-tdM/0.jpg)](https://www.youtube.com/watch?v=3RFAX3CbSGA)
+[![Alt text](https://img.youtube.com/vi/XaRdIia-tdM/0.jpg)](https://www.youtube.com/watch?v=XaRdIia-tdM)
 
-[![Alt text](https://img.youtube.com/vi/Qwj3iA4QY8g/0.jpg)](https://www.youtube.com/watch?v=3RFAX3CbSGA)
+[![Alt text](https://img.youtube.com/vi/Qwj3iA4QY8g/0.jpg)](https://www.youtube.com/watch?v=Qwj3iA4QY8g)
 
 
 
